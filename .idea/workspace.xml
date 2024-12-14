@@ -5,8 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9a2d896-bcf8-4bf9-b269-1a558cbc0b81" name="Changes" comment="v1.0.0.08">
+      <change afterPath="$PROJECT_DIR$/test01.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test02.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test03.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test04.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test05.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test06.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test07.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test08.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test09.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test10.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/course1/FrameMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vsu/cs/course1/FrameMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/course1/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vsu/cs/course1/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/course1/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vsu/cs/course1/Task.java" afterDir="false" />
     </list>
@@ -58,6 +69,7 @@
     "Application.Main (-i 1.txt -s -o out.txt).executor": "Run",
     "Application.Main (-i=1.txt -s -o out.txt).executor": "Debug",
     "Application.Main (-i=1.txt -s -o=out.txt).executor": "Run",
+    "Application.Main (-i=test01.txt -s -o=out.txt).executor": "Run",
     "Application.Program.executor": "Run",
     "Application.Window.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
@@ -87,7 +99,7 @@
       <recent name="E:\Java projects\Task 6\src\ru\vsu\cs\course1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (--window)">
+  <component name="RunManager" selected="Application.Main (-i=test01.txt -s -o=out.txt)">
     <configuration name="Help" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="ru.vsu.cs.course1.Program" />
       <module name="Task_8_and_more_sample" />
@@ -103,16 +115,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (-i=1.txt -s -o=out.txt)" type="Application" factoryName="Application">
+    <configuration name="Main (-i=test01.txt -s -o=out.txt)" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="ru.vsu.cs.course1.Program" />
       <module name="Task_8_and_more_sample" />
-      <option name="PROGRAM_PARAMETERS" value="-i=1.txt -s -o=out.txt" />
+      <option name="PROGRAM_PARAMETERS" value="-i=test02.txt -s -o=out.txt" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main (-i=1.txt -s -o=out.txt)" />
+      <item itemvalue="Application.Main (-i=test01.txt -s -o=out.txt)" />
       <item itemvalue="Application.Main (--window)" />
       <item itemvalue="Application.Help" />
     </list>
@@ -179,6 +191,10 @@
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="3" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.UnsupportedOperationException" package="java.lang" />
+          <option name="timeStamp" value="6" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
