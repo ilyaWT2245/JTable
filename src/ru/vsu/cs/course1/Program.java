@@ -56,6 +56,7 @@ public class Program {
                 System.exit(2);
             }
             if (cmdLine.hasOption("s")) {
+                arr2 = Task.deleteZeros(arr2);
             }
 
             PrintStream out = (cmdLine.hasOption("o")) ? new PrintStream(cmdLine.getOptionValue("o")) : System.out;
