@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9a2d896-bcf8-4bf9-b269-1a558cbc0b81" name="Changes" comment="v1.0.0.08">
-      <change afterPath="$PROJECT_DIR$/1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task_8_and_more_sample.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Task_8_and_more_sample.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/course1/FrameMain.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vsu/cs/course1/FrameMain.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/course1/FrameMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vsu/cs/course1/FrameMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/course1/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vsu/cs/course1/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/course1/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vsu/cs/course1/Task.java" afterDir="false" />
@@ -55,31 +51,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Help.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main (--window).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main (-i 1.txt -s -o out.txt).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main (-i=1.txt -s -o out.txt).executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Main (-i=1.txt -s -o=out.txt).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Program.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Window.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH&quot;: &quot;289&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Task__8&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/sharaga/програ/Arr2CmdArgsCommonsCli/Arr2CmdArgsCommonsCli&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Help.executor": "Run",
+    "Application.Main (--window).executor": "Run",
+    "Application.Main (-i 1.txt -s -o out.txt).executor": "Run",
+    "Application.Main (-i=1.txt -s -o out.txt).executor": "Debug",
+    "Application.Main (-i=1.txt -s -o=out.txt).executor": "Run",
+    "Application.Program.executor": "Run",
+    "Application.Window.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "289",
+    "git-widget-placeholder": "Task__9",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/sharaga/програ/Arr2CmdArgsCommonsCli/Arr2CmdArgsCommonsCli",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Java projects\Task 6\src" />

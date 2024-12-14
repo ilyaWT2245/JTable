@@ -50,17 +50,17 @@ public class Program {
                 System.exit(1);
             }
             String inputFilename = cmdLine.getOptionValue("i");
-            int[][] arr2 = ArrayUtils.readIntArray2FromFile(inputFilename);
-            if (arr2 == null) {
+            int[] arr = ArrayUtils.readIntArrayFromFile(inputFilename);
+            if (arr == null) {
                 System.err.printf("Can't read array from \"%s\"%n", inputFilename);
                 System.exit(2);
             }
             if (cmdLine.hasOption("s")) {
-                arr2 = Task.solve(arr2);
+                arr = Task.solve(arr);
             }
 
             PrintStream out = (cmdLine.hasOption("o")) ? new PrintStream(cmdLine.getOptionValue("o")) : System.out;
-            out.println(ArrayUtils.toString(arr2));
+            out.println(ArrayUtils.toString(arr));
             out.close();
         }
     }

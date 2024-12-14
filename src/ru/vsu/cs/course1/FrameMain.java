@@ -10,6 +10,7 @@ import javax.swing.filechooser.FileNameExtensionFilter;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
+import java.util.List;
 
 public class FrameMain extends JFrame{
 
@@ -29,8 +30,8 @@ public class FrameMain extends JFrame{
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.pack();
 
-        JTableUtils.initJTableForArray(tableInput, 40, true, true, true, true);
-        JTableUtils.initJTableForArray(tableOutput, 40, true, true, true, true);
+        JTableUtils.initJTableForArray(tableInput, 40, true, true, false, true);
+        JTableUtils.initJTableForArray(tableOutput, 40, true, true, false, true);
         //tableOutput.setEnabled(false);
         tableInput.setRowHeight(25);
         tableOutput.setRowHeight(25);
@@ -47,10 +48,7 @@ public class FrameMain extends JFrame{
         fileChooserSave.setDialogType(JFileChooser.SAVE_DIALOG);
         fileChooserSave.setApproveButtonText("Save");
 
-        JTableUtils.writeArrayToJTable(tableInput, new int[][]{
-                {0, 1, 2, 3, 4},
-                {5, 6, 7, 8, 9}
-        });
+        JTableUtils.writeArrayToJTable(tableInput, new int[]{1, 2, 3, 4, 5});
 
         this.pack();
 
@@ -59,7 +57,7 @@ public class FrameMain extends JFrame{
             public void actionPerformed(ActionEvent actionEvent) {
                 try {
                     if (fileChooserOpen.showOpenDialog(panelMain) == JFileChooser.APPROVE_OPTION) {
-                        int[][] arr = ArrayUtils.readIntArray2FromFile(fileChooserOpen.getSelectedFile().getPath());
+                        int[] arr = ArrayUtils.readIntArrayFromFile(fileChooserOpen.getSelectedFile().getPath());
                         JTableUtils.writeArrayToJTable(tableInput, arr);
                     }
 
@@ -74,7 +72,7 @@ public class FrameMain extends JFrame{
             public void actionPerformed(ActionEvent actionEvent) {
                 try {
                     if (fileChooserSave.showOpenDialog(panelMain) == JFileChooser.APPROVE_OPTION) {
-                        int[][] arr = JTableUtils.readIntMatrixFromJTable(tableOutput);
+                        int[] arr = JTableUtils.readIntArrayFromJTable(tableOutput);
                         ArrayUtils.writeArrayToFile(fileChooserSave.getSelectedFile().getPath(), arr);
                     }
 
@@ -88,7 +86,7 @@ public class FrameMain extends JFrame{
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
                 try {
-                    int[][] arr = JTableUtils.readIntMatrixFromJTable(tableInput);
+                    int[] arr = JTableUtils.readIntArrayFromJTable(tableInput);
                     arr = Task.solve(arr);
                     JTableUtils.writeArrayToJTable(tableOutput, arr);
 
