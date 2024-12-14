@@ -1,5 +1,6 @@
 package ru.vsu.cs.course1;
 
+import org.jetbrains.annotations.NotNull;
 import ru.vsu.cs.utils.ArrayUtils;
 
 import java.util.HashSet;
@@ -27,7 +28,11 @@ public class Task {
     }
 
     private static int[][] changeRowsColumns(int[][] arr2) {
-        int[][] otherArr = new int[arr2[0].length][arr2.length];
+        int a = arr2.length;
+        int b = 0;
+        if (a != 0) b = arr2[0].length;
+
+        int[][] otherArr = new int[b][a];
         for (int i = 0; i < arr2.length; i++) {
             for (int j = 0; j < arr2[i].length; j++) {
                 otherArr[j][i] = arr2[i][j];
