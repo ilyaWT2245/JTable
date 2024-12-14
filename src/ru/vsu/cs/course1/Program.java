@@ -50,7 +50,12 @@ public class Program {
                 System.exit(1);
             }
             String inputFilename = cmdLine.getOptionValue("i");
-            int[][] arr2 = ArrayUtils.readIntArray2FromFile(inputFilename);
+            int[][] arr2 = null;
+            try {
+                arr2 = ArrayUtils.readIntArray2FromFile(inputFilename);
+            } catch (Exception e) {
+                arr2 = new int[0][0];
+            }
             if (arr2 == null) {
                 System.err.printf("Can't read array from \"%s\"%n", inputFilename);
                 System.exit(2);
